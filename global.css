@@ -507,6 +507,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: 1.25rem;
   margin-right: 1.25rem;
 }
+.box-content{
+  box-sizing: content-box;
+}
 .inline-block{
   display: inline-block;
 }
@@ -601,14 +604,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   -o-object-fit: scale-down;
      object-fit: scale-down;
 }
-.p-8{
-  padding: 2rem;
-}
-.p-16{
-  padding: 4rem;
-}
 .p-1{
   padding: 0.25rem;
+}
+.px-14{
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}
+.px-24{
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
 .px-4{
   padding-left: 1rem;
@@ -617,6 +622,27 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-2{
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+.pb-16{
+  padding-bottom: 4rem;
+}
+.pt-14{
+  padding-top: 3.5rem;
+}
+.pb-24{
+  padding-bottom: 6rem;
+}
+.pt-my52{
+  padding-top: 52px;
+}
+.pb-my60{
+  padding-bottom: 60px;
+}
+.pt-my92{
+  padding-top: 92px;
+}
+.pb-my100{
+  padding-bottom: 100px;
 }
 .align-middle{
   vertical-align: middle;
@@ -733,6 +759,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   .sm\:border-6{
     border-width: 6px;
   }
+
+  .sm\:pt-my50{
+    padding-top: 50px;
+  }
+
+  .sm\:pb-my62{
+    padding-bottom: 62px;
+  }
+
+  .sm\:pt-my90{
+    padding-top: 90px;
+  }
+
+  .sm\:pb-my102{
+    padding-bottom: 102px;
+  }
 }
 @media (min-width: 768px){
 
@@ -764,5 +806,21 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .xl\:border-8{
     border-width: 8px;
+  }
+
+  .xl\:pt-12{
+    padding-top: 3rem;
+  }
+
+  .xl\:pb-16{
+    padding-bottom: 4rem;
+  }
+
+  .xl\:pt-my88{
+    padding-top: 88px;
+  }
+
+  .xl\:pb-my104{
+    padding-bottom: 104px;
   }
 }
