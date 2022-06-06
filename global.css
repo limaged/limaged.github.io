@@ -600,6 +600,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-bg-opacity: 1;
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
+.object-contain{
+  -o-object-fit: contain;
+     object-fit: contain;
+}
 .object-scale-down{
   -o-object-fit: scale-down;
      object-fit: scale-down;
