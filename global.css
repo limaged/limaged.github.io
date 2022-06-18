@@ -566,6 +566,9 @@ h4{
     line-height: 1;
   }
 }
+.pointer-events-none{
+  pointer-events: none;
+}
 .relative{
   position: relative;
 }
