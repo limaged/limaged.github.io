@@ -596,9 +596,6 @@ h4{
 .mr-5{
   margin-right: 1.25rem;
 }
-.mt-10{
-  margin-top: 2.5rem;
-}
 .mt-20{
   margin-top: 5rem;
 }
@@ -733,37 +730,17 @@ h4{
   --tw-bg-opacity: 1;
   background-color: rgb(0 53 57 / var(--tw-bg-opacity));
 }
-.bg-white{
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-.bg-gray-800{
-  --tw-bg-opacity: 1;
-  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
-}
-.bg-lighter-teal{
-  --tw-bg-opacity: 1;
-  background-color: rgb(193 243 254 / var(--tw-bg-opacity));
-}
 .bg-lighter-purple{
   --tw-bg-opacity: 1;
   background-color: rgb(216 206 225 / var(--tw-bg-opacity));
 }
-.bg-lighter-red{
+.bg-trippy-yellow{
   --tw-bg-opacity: 1;
-  background-color: rgb(241 199 215 / var(--tw-bg-opacity));
+  background-color: rgb(211 215 13 / var(--tw-bg-opacity));
 }
 .bg-darker-coral{
   --tw-bg-opacity: 1;
   background-color: rgb(179 15 0 / var(--tw-bg-opacity));
-}
-.bg-trippy-red{
-  --tw-bg-opacity: 1;
-  background-color: rgb(163 40 87 / var(--tw-bg-opacity));
-}
-.bg-trippy-yellow{
-  --tw-bg-opacity: 1;
-  background-color: rgb(211 215 13 / var(--tw-bg-opacity));
 }
 .bg-trippy-pink{
   --tw-bg-opacity: 1;
@@ -772,6 +749,34 @@ h4{
 .bg-darker-pink{
   --tw-bg-opacity: 1;
   background-color: rgb(172 7 47 / var(--tw-bg-opacity));
+}
+.bg-lighter-red{
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 199 215 / var(--tw-bg-opacity));
+}
+.bg-lighter-teal{
+  --tw-bg-opacity: 1;
+  background-color: rgb(193 243 254 / var(--tw-bg-opacity));
+}
+.bg-trippy-red{
+  --tw-bg-opacity: 1;
+  background-color: rgb(163 40 87 / var(--tw-bg-opacity));
+}
+.bg-neutral-900{
+  --tw-bg-opacity: 1;
+  background-color: rgb(23 23 23 / var(--tw-bg-opacity));
+}
+.bg-neutral-850{
+  --tw-bg-opacity: 1;
+  background-color: rgb(28 28 28 / var(--tw-bg-opacity));
+}
+.bg-neutral-800{
+  --tw-bg-opacity: 1;
+  background-color: rgb(38 38 38 / var(--tw-bg-opacity));
+}
+.bg-neutral-500{
+  --tw-bg-opacity: 1;
+  background-color: rgb(115 115 115 / var(--tw-bg-opacity));
 }
 .object-contain{
   -o-object-fit: contain;
@@ -1013,10 +1018,6 @@ h4{
 
 @media (min-width: 1024px){
 
-  .lg\:grid{
-    display: grid;
-  }
-
   .lg\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1024,10 +1025,6 @@ h4{
   .lg\:gap-x-2{
     -moz-column-gap: 0.5rem;
          column-gap: 0.5rem;
-  }
-
-  .lg\:gap-y-2{
-    row-gap: 0.5rem;
   }
 }
 
